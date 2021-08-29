@@ -1,0 +1,4 @@
+<h5>Buscar: </h5>
+<!--Con el evento keyup.enter estamos capturando cada vez que se presione la tecla enter el valor de la caja de text,
+el cual es #txtBuscar y con una funcion creada en busqueda.component se procesa dicho contenido-->
+<input type="text" class="form-control" placeholder="Buscar gifs..." (keyup.enter)="buscar()" #txtBuscar>
